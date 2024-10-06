@@ -19,15 +19,12 @@ h5,
 h6,
 p,
 ul {
-  /* margin-top: 0; */
-  /* margin-bottom: 0; */
   margin: 0;
   padding: 0;
 }
 
 ul {
   list-style-type: none;
-  /* padding-left: 0; */
 }
 
 img {
@@ -46,7 +43,6 @@ img {
   color: #4d5ae5;
   font-size: 18px;
   margin-right: 76px;
-  /* padding: 24px 0; */
 }
 
 .highlighted-text {
@@ -181,7 +177,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  /* padding: 0px 0px 32px 0px; */
 }
 
 .text-bottom {
