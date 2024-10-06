@@ -130,6 +130,8 @@ img {
 .our-team {
   background: #f4f4fd;
   text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .content-heading {
@@ -140,6 +142,7 @@ img {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .site-bottom {
@@ -160,6 +163,10 @@ img {
 
 .list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  padding: 0px 0px 32px 0px;
 }
 
 .text-bottom {
@@ -219,4 +226,13 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.card-subheading {
+  margin-top: 32px;
 }
