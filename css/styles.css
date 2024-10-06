@@ -28,6 +28,11 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-optical-sizing: auto;
@@ -38,6 +43,8 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   font-size: 18px;
+  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .highlighted-text {
@@ -68,10 +75,13 @@ ul {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding: 24px 0;
 }
 
 .contact-link {
   color: #434455;
+  padding: 24px 0;
 }
 
 .link:hover,
@@ -152,4 +162,25 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  /* align-items: center; */
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-contact-list {
+  display: flex;
+  gap: 40px;
 }
